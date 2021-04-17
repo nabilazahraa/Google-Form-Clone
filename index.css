@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e3edfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.main {
+  border-top: 10px solid#4285f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 1%;
+  font-weight: 400;
+}
+.heading {
+  font-weight: 0;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+form {
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+input {
+  padding: 12px 20px;
+  margin: 20px;
+}
+label {
+  margin-left: 5%;
+  margin: 5%;
+  font-weight: 300;
+}
+#name,
+#email,
+#age {
+  border: none;
+  width: 50%;
+  border-bottom: 0.5px solid gray;
+  outline: none;
+}
+#gender {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 20px;
+  width: 20px;
+}
+#btn {
+  background-color: white;
+  color: #4285f4;
+  font-weight: 550;
+  border: gray;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: -1;
+}
+#btn:hover {
+  background-color: whitesmoke;
+}
+#institute {
+  border: none;
+}
+label {
+  color: black;
+}
+select {
+  width: 50%;
+  border-radius: 2px;
+}
+div {
+  padding-top: 30px;
+  background-color: white;
+  border-radius: 7px;
+  color: black;
+}
+select {
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+#age {
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 5px;
+  color: gray;
+  width: 155px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  form {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}

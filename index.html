@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><img src="./header.jpg" height="400px"/></header>
+    <div class="main">
+      <p class="heading">Local Storage Form</p>
+      <p>This form is inspired by Google Forms made from scratch and it includes local storage.<br><br>
+        Coded by Nabila Zahra
+      </p>
+         </p>
+      </div>
+    <form action="/index.html">
+      <div>
+        <label for="name">Full Name</label><br /><br />
+        <input
+        autocomplete="off"
+          class="name"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="email">Email Address</label><br />
+        <input
+        autocomplete="off"
+          class="email"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender</label><br />
+        <input
+          type="radio"
+          value="Female"
+          id="gender"
+          name="gender"
+        />Female<br />
+        <input type="radio" value="Male" id="gender" name="gender" />Male<br />
+        <input
+          type="radio"
+          value="Other"
+          id="gender"
+          name="gender"
+        />Other<br />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age</label><br /><br />
+        <select id="age" name="age" class="age">
+          <option value="">Choose</option>
+          <option value="Below 15">Below 15</option>
+          <option value="15 to 19">15 to 19</option>
+          <option value="20 to 24">20 to 24</option>
+          <option value="30 to 34">30 to 34</option>
+          <option value="40 to 44">40 to 44</option>
+          <option value="44+">44+</option>
+        </select>
+      </div>
+      <br />
+    
+
+        <input id="btn" onclick="storage()" type="submit" />
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>
